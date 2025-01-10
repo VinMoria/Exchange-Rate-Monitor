@@ -1,0 +1,10 @@
+{
+	"HOST": "smtp.example.com",
+	"SENDER": "username@example.com",
+	"PASSWORD": "your password",
+	"RECEIVERS": [
+		"RECEIVER1@example.com",
+		"RECEIVER2@example.com"
+	],
+	"FIXED_THRESHOLD": 5.38
+}
