@@ -14,7 +14,8 @@
 ```Shell
 docker pull redcomet720/currency:latest
 
-docker run -d -v [filepath]/config.json:/app/config.json redcomet720/currency:latest #请提前准备好配置文件，执行此命令后，服务开始运行
+docker run -d -v [filepath]/config.json:/app/config.json redcomet720/currency:latest 
+#请提前准备好配置文件，执行此命令后，服务开始运行
 
 # 以下是日志查看
 docker ps # 查看运行中的容器的id
